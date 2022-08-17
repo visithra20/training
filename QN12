@@ -1,0 +1,5 @@
+const  Set1 = new Set([3,4,5])
+ const Set2 = new Set([6,5,3])
+ const Set3 = new Set([3,9,6])
+ const Set4 = new Set([...Set1, ...Set2, ...Set3]) 
+ console.log(Set4)

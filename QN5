@@ -1,0 +1,5 @@
+function cutInHalfAndFloor(num) {
+ var a=Math.floor(num/2);
+ console.log(a)
+ }
+cutInHalfAndFloor(99)

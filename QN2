@@ -1,0 +1,7 @@
+var a=['carrot', 'tomato','cucumber','cabbage','potato'];
+var b=['orange','red','green','white','yellow'];
+function color(vegetable){
+   let indexvegetable=a.findIndex(element=>element==vegetable);
+   console.log(b[indexvegetable]);
+}
+color("cabbage");
